@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tweetcraft"
+version = "0.1.0"
+description = ""
+authors = ["Anuj Jindal <31108317+jindalAnuj@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.3"
+crewai = "^0.28.8"
+ollama = "^0.1.8"
+load-dotenv = "^0.1.0"
+html2text = "^2024.2.26"
+streamlit = "^1.33.0"
+pickledb = "^0.9.2"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
